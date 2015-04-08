@@ -28,6 +28,7 @@ exports.attrsGroups = {
     core: ['id', 'tabindex', 'xml:base', 'xml:lang', 'xml:space'],
     graphicalEvent: ['onfocusin', 'onfocusout', 'onactivate', 'onclick', 'onmousedown', 'onmouseup', 'onmouseover', 'onmousemove', 'onmouseout', 'onload'],
     presentation: [
+        'title',
         'alignment-baseline',
         'baseline-shift',
         'buffered-rendering',
@@ -108,6 +109,7 @@ exports.attrsGroupsDefaults = {
     core: {'xml:space': 'preserve'},
     filterPrimitive: {x: '0', y: '0', width: '100%', height: '100%'},
     presentation: {
+        title: '',
         clip: 'auto',
         'clip-path': 'none',
         'clip-rule': 'nonzero',

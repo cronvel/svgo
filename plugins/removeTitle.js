@@ -2,7 +2,7 @@
 
 exports.type = 'perItem';
 
-exports.active = false;
+exports.active = true;
 
 /**
  * Remove <title>.
